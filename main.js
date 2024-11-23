@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const bearAnchor = mindarThree.addAnchor(1);
     bearAnchor.group.add(bear.scene);
 
-    const audioClip2 = await loadAudio('./assets/sounds/musicband-background.mp3');
+    const audioClip2 = await loadAudio('./assets/sounds/aphrodite.mp3');
     const listener2 = new THREE.AudioListener();
     camera.add(listener2);
     const audio2 = new THREE.PositionalAudio(listener2);
