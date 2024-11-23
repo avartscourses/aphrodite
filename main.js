@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
     raccoonAnchor.group.add(audio1);
     audio1.setBuffer(audioClip1);
     audio1.setRefDistance(100);
+    //audio1.setVolume(100);
     audio1.setLoop(true);
 
     // Play/pause audio when the raccoon target is found/lost
@@ -73,7 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const audio2 = new THREE.PositionalAudio(listener2);
     bearAnchor.group.add(audio2);
     audio2.setBuffer(audioClip2);
-    audio2.setRefDistance(100);
+    audio2.setRefDistance(300);
+      audio1.setVolume(100);
     audio2.setLoop(true);
 
     bearAnchor.onTargetFound = () => {
