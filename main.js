@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
     bearAnchor.group.add(audio2);
     audio2.setBuffer(audioClip2);
     audio2.setRefDistance(300);
-      audio1.setVolume(100);
+    audio2.setVolume(20);
     audio2.setLoop(true);
 
     bearAnchor.onTargetFound = () => {
